@@ -1,0 +1,58 @@
+.conteiner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: pink;
+    height: 500px;
+
+}
+.flex{
+    display: flex;
+}
+.box{
+    width: 150px;
+    background-color: red;
+    margin: 0 10px ;
+}
+nav a {
+    color: black;
+    font-size: 40px;
+}
+.burger {
+    display: none;
+    color: tomato;
+    font-size: 40px;
+}
+@media (max-width: 1024px ){
+    .conteiner{
+        background: green;
+    }
+    .box {
+        background-color: yellow;
+    }
+}
+@media ( max-width: 768px ){
+    .conteiner{
+        background: indigo;
+    }
+    
+}
+@media (max-width: 480px){
+    .conteiner{
+        background: lightblue;
+    }
+    nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
+.logo {
+    height: 80px;
+    display: block;
+}
+.logo img {
+    height: 100%;
+}
+
